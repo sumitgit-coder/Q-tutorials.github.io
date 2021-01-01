@@ -1,3 +1,4 @@
+encoding: UTF-8
 # will be overwritten by github, see https://help.github.com/articles/using-jekyll-with-pages
 lsi: false
 safe: true
