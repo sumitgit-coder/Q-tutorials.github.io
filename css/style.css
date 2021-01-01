@@ -1,0 +1,970 @@
+                                        /* header section */
+                                    
+                                    .hero {
+                                        padding: 3rem 0;
+                                    }
+                                    
+                                    .hero .left img {
+                                        width: 400px;
+                                        height: 600px;
+                                        border-radius: 50px 50px;
+                                    }
+                                    
+                                    .hero .right {
+                                        color: var(--pure);
+                                    }
+                                    
+                                    .hero .right h6 {
+                                        font-size: 1.6rem;
+                                        color: var(--primary);
+                                        margin-bottom: 0.5rem;
+                                    }
+                                    
+                                    .hero .right h1 {
+                                        font-size: 4rem;
+                                        font-weight: 100;
+                                        line-height: 1.2;
+                                        margin-bottom: 2rem;
+                                    }
+                                    
+                                    .hero .right h1 span {
+                                        color: var(--secondary);
+                                    }
+                                    
+                                    .hero .right p {
+                                        line-height: 1.9;
+                                        margin-bottom: 2rem;
+                                    }
+                                    
+                                    .hero .right {
+                                        margin-top: -7rem;
+                                    }
+                                    /* About section */
+                                    
+                                    section {
+                                        padding: 6rem 0;
+                                    }
+                                    
+                                    section.about .about-me-img {
+                                        height: 450px;
+                                        width: 350px;
+                                    }
+                                    
+                                    section.about h1 {
+                                        margin-bottom: 1rem;
+                                        font-size: 1.6rem;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    section.about h1 span {
+                                        color: white;
+                                    }
+                                    
+                                    section.about h3 {
+                                        font-size: 1rem;
+                                        margin-bottom: 1rem;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    section.about p {
+                                        /* font-family: 'Lato'; */
+                                        font-family: 'Flamenco', cursive;
+                                        color: var(--ternary);
+                                        line-height: 1.9;
+                                        margin-bottom: 2rem;
+                                    }
+                                    
+                                    section.about .social {
+                                        display: flex;
+                                    }
+                                    
+                                    section.about .social a {
+                                        background: var(--dark);
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        width: 35px;
+                                        height: 35px;
+                                        text-decoration: none;
+                                        color: var(--pure);
+                                        border-radius: 50%;
+                                        margin-right: 0.6rem;
+                                        transition: all 0.3s ease;
+                                    }
+                                    
+                                    section.about .social a:hover {
+                                        background: white;
+                                    }
+                                    /* section.about .social a i {
+width: 100%;
+height: 100%;
+padding: 0.5rem;
+} */
+                                    /* services section */
+                                    
+                                    .section-heading {
+                                        color: var(--secondary);
+                                        text-align: center;
+                                        margin-bottom: 1rem;
+                                        line-height: 0.5;
+                                    }
+                                    
+                                    .section-heading span {
+                                        color: var(--primary);
+                                    }
+                                    
+                                    .section-heading+p {
+                                        color: white;
+                                        /* font-family: 'Lato'; */
+                                        font-family: 'Flamenco', cursive;
+                                        margin-bottom: 8rem;
+                                        text-align: center;
+                                    }
+                                    
+                                    section.services {
+                                        background: white;
+                                    }
+                                    
+                                    section.services .card-wrapper {
+                                        display: grid;
+                                        /* grid-template-columns: 1fr 1fr 1fr; */
+                                        grid-template-columns: repeat(3, 1fr);
+                                        grid-column-gap: 2rem;
+                                        grid-row-gap: 6rem;
+                                    }
+                                    
+                                    section.services .card-wrapper .card {
+                                        background: var(--pure);
+                                        padding: 3rem 2rem;
+                                        position: relative;
+                                        padding-top: 5rem;
+                                        text-align: center;
+                                        transition: all 3s ease;
+                                    }
+                                    
+                                    section.services .card-wrapper .card i {
+                                        position: absolute;
+                                        top: -3.5rem;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                        border-radius: 50%;
+                                        font-size: 60px;
+                                        background: var(--pure);
+                                        color: var(--dark);
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        width: 90px;
+                                        height: 90px;
+                                        text-decoration: none;
+                                        border-radius: 50%;
+                                        margin-right: 0.6rem;
+                                        transition: all 0.3s ease;
+                                        /* z-index: 1;
+-webkit-transition: 0.3s ease;
+-moz-transition: 0.3s ease;
+-ms-transition: 0.3s ease;
+-o-transition: 0.3s ease;
+transition: 0.3s ease; */
+                                    }
+                                    
+                                    section.services .card-wrapper .card i:hover {
+                                        background-color: var(--primary);
+                                        color: var(--pure);
+                                    }
+                                    
+                                    section.services .card-wrapper .card h2 {
+                                        font-weight: 400;
+                                        font-size: 1.2rem;
+                                        margin-bottom: 0.5rem;
+                                    }
+                                    
+                                    section.services .card-wrapper .card p {
+                                        /* font-family: 'Lato'; */
+                                        font-family: 'Flamenco', cursive;
+                                        color: var(--ternary);
+                                        line-height: 1.6;
+                                    }
+                                    
+                                    section.services .card-wrapper .card:hover {
+                                        background: white;
+                                    }
+                                    
+                                    section.services .card-wrapper .card:hover h2,
+                                    section.services .card-wrapper .card:hover p {
+                                        color: black;
+                                    }
+                                    /* freelence section  call to action */
+                                    
+                                    section.freelance {
+                                        text-align: center;
+                                        color: white;
+                                        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(camera.png);
+                                        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+                                        padding-bottom: 14rem;
+                                        margin-bottom: 100px;
+                                        margin-top: 100px;
+                                    }
+                                    
+                                    section.freelance h1 {
+                                        font-size: 2rem;
+                                        margin-bottom: 0.5rem;
+                                    }
+                                    
+                                    section.freelance p {
+                                        margin-bottom: 2rem;
+                                        /* font-family: 'Lato'; */
+                                        font-family: 'Flamenco', cursive;
+                                    }
+                                    /* slider section */
+                                    
+                                    section.reviews .slider .slide img {
+                                        width: 100px;
+                                        height: 100px;
+                                        border-radius: 50%;
+                                        -webkit-border-radius: 50%;
+                                        -moz-border-radius: 50%;
+                                        -os-border-radius: 50%;
+                                        -o-border-radius: 50%;
+                                        object-fit: cover;
+                                        margin-bottom: 2rem;
+                                    }
+                                    
+                                    section.reviews .slider .slide {
+                                        text-align: center;
+                                        display: flex;
+                                        align-items: center;
+                                        flex-direction: column;
+                                        padding: 0 10rem;
+                                        outline: none;
+                                    }
+                                    
+                                    section.reviews .slider .slide p {
+                                        /* font-family: 'Lato'; */
+                                        font-family: 'Flamenco', cursive;
+                                        color: var(--ternary);
+                                        margin-bottom: 1rem;
+                                    }
+                                    
+                                    section.reviews .slider .slide span {
+                                        font-size: 0.8rem;
+                                    }
+                                    
+                                    section.reviews .slider-dots .dots {
+                                        list-style-type: none;
+                                        display: flex!important;
+                                        justify-content: center;
+                                    }
+                                    
+                                    section.reviews .slider-dots {
+                                        margin-top: 3rem;
+                                    }
+                                    
+                                    section.reviews .slider-dots button {
+                                        font-size: 0;
+                                        width: 8px;
+                                        height: 5px;
+                                        margin-right: 0.3rem;
+                                        border: none;
+                                        outline: none;
+                                        background: var(--ternary);
+                                        border-radius: 50%;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    section.reviews .dots li.slick-active button {
+                                        background: var(--primary);
+                                        width: 20px;
+                                    }
+                                    /* Our works */
+                                    
+                                    section.work {
+                                        background: var(--light);
+                                        /* font-family: 'Lato'; */
+                                        font-family: 'Flamenco', cursive;
+                                    }
+                                    
+                                    section.work .card-wrapper {
+                                        display: grid;
+                                        grid-template-columns: repeat(3, 1fr);
+                                        /* grid-template-columns: 1fr 1fr 1fr; */
+                                        grid-column-gap: 2rem;
+                                        grid-row-gap: 6rem;
+                                    }
+                                    
+                                    section.work .card-wrapper .card {
+                                        position: relative;
+                                        height: 265px;
+                                    }
+                                    
+                                    section.work .card-wrapper .card .overlay {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        background: rgba(61, 287, 211, 0.9);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-direction: column;
+                                        color: var(--light);
+                                        opacity: 0;
+                                    }
+                                    
+                                    section.work .card-wrapper .card:hover .overlay {
+                                        opacity: 1;
+                                        transition: all 1s ease;
+                                    }
+                                    
+                                    section.work .card-wrapper .card .overlay a {
+                                        color: var(--secondary);
+                                        text-decoration: none;
+                                    }
+                                    
+                                    section.work .card-wrapper .card .overlay a:hover {
+                                        color: (var(--pure));
+                                    }
+                                    
+                                    section.work .card-wrapper .card .overlay img {
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                    /* Our Blog */
+                                    
+                                    section.blog {
+                                        background: var(--dark);
+                                        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+                                        padding-bottom: 12rem;
+                                    }
+                                    
+                                    section.blog .section-heading {
+                                        color: var(--pure);
+                                    }
+                                    
+                                    section.blog .card-wrapper {
+                                        display: grid;
+                                        grid-template-columns: repeat(3, 1fr);
+                                        grid-gap: 3rem;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card {
+                                        background: var(--pure);
+                                        height: 100%;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .img-wrapper img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content {
+                                        padding: 1rem;
+                                        padding-left: 2rem;
+                                        padding-right: 2rem;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content:hover {
+                                        background: var(--primary);
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content h1 {
+                                        font-size: 1rem;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content a {
+                                        color: var(--secondary);
+                                        text-decoration: none;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content a:hover {
+                                        color: var(--primary);
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content span {
+                                        color: var(--ternary);
+                                        font-size: 0.8rem;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content p {
+                                        /* font-family: 'Lato'; */
+                                        font-family: 'Flamenco', cursive;
+                                        color: var(--ternary);
+                                        margin-top: 1rem;
+                                        margin-bottom: 1rem;
+                                    }
+                                    
+                                    section.blog .card-wrapper .card .card-content a.read-more {
+                                        font-size: 0.8rem;
+                                    }
+                                    /* Contact Us */
+                                    
+                                    section.contact .card-wrapper {
+                                        display: grid;
+                                        grid-template-columns: repeat(3, 1fr);
+                                        grid-gap: 3rem;
+                                    }
+                                    
+                                    section.contact .card-wrapper .card {
+                                        /* font-size: 6px; */
+                                        text-align: center;
+                                    }
+                                    
+                                    section.contact .card-wrapper .card i {
+                                        margin-bottom: 3rem;
+                                    }
+                                    
+                                    section.contact .card-wrapper .card h1 {
+                                        font-weight: 400;
+                                        margin-bottom: 1rem;
+                                    }
+                                    
+                                    section.contact .card-wrapper .card h6 {
+                                        font-size: 1rem;
+                                        color: var(--ternary);
+                                        font-weight: 400;
+                                        margin-bottom: 4rem;
+                                    }
+                                    
+                                    section.contact .input-wrap {
+                                        display: grid;
+                                        grid-template-columns: repeat(2, 1fr);
+                                        grid-gap: 2rem;
+                                        margin-bottom: 2rem;
+                                    }
+                                    
+                                    section.contact .input-wrap-2 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    
+                                    section.contact .input-wrap-2 input {
+                                        margin-bottom: 2rem;
+                                    }
+                                    
+                                    section.contact input {
+                                        padding: 0.5rem;
+                                        border: 1px solid var(--light);
+                                        font-size: 0.9rem;
+                                    }
+                                    
+                                    section.contact .input-wrap-2 textarea {
+                                        padding: 0.5rem;
+                                        border: 1px solid var(--light);
+                                        font-size: 0.9rem;
+                                    }
+                                    
+                                    section.contact input:focus,
+                                    section.contact .input-wrap-2 textarea:focus {
+                                        outline: none;
+                                    }
+                                    
+                                    section.contact .btn-wrapper {
+                                        text-align: center;
+                                        margin: 2rem;
+                                    }
+                                    
+                                    footer {
+                                        /* background: var(--dark); */
+                                        text-align: center;
+                                        padding: 3rem 0;
+                                    }
+                                    
+                                    footer .footer-logo {
+                                        margin-bottom: 3rem;
+                                        width: 500px;
+                                        animation: move1 10s;
+                                        animation-iteration-count: infinite;
+                                        animation-delay: 1s;
+                                    }
+                                    
+                                    @keyframes move1 {
+                                        0% {
+                                            transform: perspective(600px) rotatey(0deg);
+                                        }
+                                        100% {
+                                            transform: perspective(600px) rotatey(-16200deg);
+                                        }
+                                    }
+                                    
+                                    footer .footer-socials a {
+                                        width: 0px;
+                                        height: 0px;
+                                        font-size: 50px;
+                                        background: var(--pure);
+                                        margin-bottom: 3rem;
+                                        margin-right: 3rem;
+                                        color: var(--pure);
+                                        border-radius: 50%;
+                                        transition: all 0.3s ease-in;
+                                    }
+                                    
+                                    footer .footer-socials a:hover {
+                                        color: white;
+                                    }
+                                    
+                                    footer .footer-socials {
+                                        margin-bottom: 2rem;
+                                        margin-right: -1rem;
+                                    }
+                                    
+                                    footer .copyright {
+                                        color: var(--pure);
+                                    }
+                                    /* Creating Responsibe web */
+                                    /* Media query */
+                                    
+                                    .site-main-wrapper {
+                                        position: relative;
+                                    }
+                                    
+                                    .hamberger {
+                                        position: absolute;
+                                        top: 40px;
+                                        right: 40px;
+                                        z-index: 11;
+                                        background: none;
+                                        border: none;
+                                        cursor: pointer;
+                                        outline: none;
+                                        display: none;
+                                    }
+                                    
+                                    .hamberger img {
+                                        width: 30px;
+                                    }
+                                    
+                                    .mobile-nav {
+                                        position: fixed;
+                                        top: 0;
+                                        left: 0;
+                                        z-index: 1001;
+                                        background: var(--light);
+                                        width: 100%;
+                                        height: 100%;
+                                        padding: 2rem;
+                                        padding-top: 5rem;
+                                        transform: translateX(-100%);
+                                        transition: all .5s ease-in-out;
+                                    }
+                                    
+                                    .open {
+                                        transform: translateX(0);
+                                    }
+                                    
+                                    .times {
+                                        position: fixed;
+                                        top: 30px;
+                                        right: 30px;
+                                        border: none;
+                                        background: none;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .times img {
+                                        width: 30px;
+                                    }
+                                    
+                                    .mobile-nav ul {
+                                        list-style-type: none;
+                                    }
+                                    
+                                    .mobile-nav ul li a {
+                                        color: var(--secondary);
+                                        text-decoration: none;
+                                        font-size: 2rem;
+                                    }
+                                    /* first media query */
+                                    /* Creating Responsibe web */
+                                    /* Media query */
+                                    
+                                    @media (max-width:1024px) {
+                                        header #main-nav {
+                                            display: none;
+                                        }
+                                        .hamberger {
+                                            display: block;
+                                        }
+                                        .hero .left img {
+                                            width: 260px;
+                                        }
+                                        .hero .right h1 {
+                                            font-size: 3rem;
+                                        }
+                                        .hero {
+                                            padding-top: 10rem;
+                                        }
+                                        header {
+                                            clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 88%, 0 100%);
+                                        }
+                                        section.about .about-me-img {
+                                            height: 360px;
+                                        }
+                                        section.services .card-wrapper {
+                                            grid-template-columns: repeat(2, 1fr);
+                                        }
+                                        section.work .card-wrapper {
+                                            grid-template-columns: repeat(2, 1fr);
+                                        }
+                                        section.blog .card-wrapper {
+                                            grid-template-columns: repeat(1, 1fr);
+                                        }
+                                        section.blog {
+                                            clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
+                                        }
+                                    }
+                                    
+                                    @media (max-width:576px) {
+                                        .hero {
+                                            flex-direction: column;
+                                        }
+                                        header {
+                                            clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 96%, 0 100%);
+                                        }
+                                        .hero .right {
+                                            position: absolute;
+                                            top: 260px;
+                                            padding: 0 1rem;
+                                            /* background: linear-gradient(rgb(30, 77, 146), rgb(30, 77, 146, 0.9)); */
+                                        }
+                                        .hero .right:hover {
+                                            color: green;
+                                        }
+                                        .hero .left {
+                                            margin-top: -5rem;
+                                            margin-right: -9rem;
+                                            padding-bottom: 8rem;
+                                        }
+                                        .about-inner-wrap {
+                                            flex-direction: column;
+                                        }
+                                        .about .right {
+                                            text-align: center;
+                                            margin-top: 2rem;
+                                        }
+                                        .about .right .social {
+                                            justify-content: center;
+                                        }
+                                        section {
+                                            padding: 3rem 0;
+                                        }
+                                        section.services .card-wrapper {
+                                            grid-template-columns: repeat(1, 1fr);
+                                            margin-top: 6rem;
+                                        }
+                                        section.freelance h1 {
+                                            line-height: 1.2;
+                                        }
+                                        section.freelance {
+                                            clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+                                            padding-bottom: 8rem;
+                                        }
+                                        section.reviews .slider .slide {
+                                            padding: 0;
+                                        }
+                                        .section-heading+p {
+                                            margin-bottom: 3rem;
+                                        }
+                                        section.work .card-wrapper {
+                                            grid-template-columns: repeat(1, 1fr);
+                                        }
+                                        section.contact .card-wrapper {
+                                            grid-template-columns: repeat(1, 1fr);
+                                        }
+                                        .section.contact .input-wrap {
+                                            grid-template-columns: repeat(1, 1fr);
+                                        }
+                                    }
+                                    
+                                    .intro-area {
+                                        position: relative;
+                                        padding: 100px 0px;
+                                        text-align: center;
+                                        width: 100%;
+                                    }
+                                    
+                                    .sub-heading {
+                                        position: relative;
+                                        margin-bottom: 75px;
+                                    }
+                                    
+                                    .sub-heading:before {
+                                        content: "";
+                                        position: absolute;
+                                        top: 100%;
+                                        left: 50%;
+                                        margin-left: -3%;
+                                        width: 6%;
+                                        height: 1px;
+                                        background-color: white;
+                                        color: #ffff;
+                                        z-index: 1;
+                                        -webkit-transition: 0.3s ease;
+                                        -moz-transition: 0.3s ease;
+                                        -ms-transition: 0.3s ease;
+                                        -o-transition: 0.3s ease;
+                                        transition: 0.3s ease;
+                                    }
+                                    
+                                    .sub-heading:hover:before {
+                                        width: 14%;
+                                        margin-left: -12px;
+                                    }
+                                    
+                                    .sub-heading p {
+                                        color: #ffff;
+                                        display: inline-block;
+                                        padding: 0px 0px 20px;
+                                        position: relative;
+                                        line-height: 14px;
+                                        letter-spacing: 0.025;
+                                        margin-bottom: 1px;
+                                    }
+                                    
+                                    .intro-block {
+                                        position: relative;
+                                        background: #f7f7f7;
+                                        text-align: center;
+                                        padding: 70px 25px 40px;
+                                        margin-bottom: 100px;
+                                    }
+                                    
+                                    .intro-block:hover,
+                                    .intro-block.active {
+                                        background: #0AABE1;
+                                    }
+                                    
+                                    .intro-block:hover {
+                                        transition: 0.6s ease;
+                                        -webkit-transition: 0.3s ease;
+                                        -moz-transition: 0.6s ease;
+                                        -ms-transition: 0.6s ease;
+                                        -o-transition: 0.6s ease;
+                                        transition: 0.6s ease;
+                                    }
+                                    
+                                    .intro-block .intro-icon {
+                                        position: absolute;
+                                        top: -31px;
+                                        left: 50%;
+                                        margin-left: -31px;
+                                    }
+                                    
+                                    .intro-block .fa {
+                                        width: 63px;
+                                        height: 63px;
+                                        font-size: 30px;
+                                        color: white;
+                                        line-height: 2;
+                                        background: deepskyblue;
+                                        border-radius: 50%;
+                                        box-shadow: 0px 0px 0px 10px #CCEEF9;
+                                    }
+                                    
+                                    .intro-block:hover .fa,
+                                    .intro-block.active .fa {
+                                        background: white;
+                                        color: deepskyblue;
+                                        box-shadow: 0px 0px 0px 10px deepskyblue;
+                                    }
+                                    
+                                    .intro-block h3 {
+                                        font-size: 18px;
+                                        color: deepskyblue;
+                                        font-weight: 700;
+                                        text-transform: uppercase;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .intro-block p {
+                                        color: #505050;
+                                    }
+                                    
+                                    .intro-block:hover h3,
+                                    .intro-block:hover p {
+                                        color: #f6f6f6;
+                                    }
+                                    
+                                    .team-area {
+                                        padding: 100px 0px;
+                                    }
+                                    
+                                    .team-area .sub-heading {
+                                        margin-bottom: 100px;
+                                    }
+                                    
+                                    .team-man {
+                                        left: 46%;
+                                        margin-left: 600px;
+                                        /* top: 2000px; */
+                                        margin-top: 50px;
+                                        overflow: hidden;
+                                        min-height: 30px;
+                                        height: 180px;
+                                        width: 150px;
+                                        min-width: 60px;
+                                        border-top: 10px solid deepskyblue;
+                                        border: 4px solid var(--pure);
+                                        border-radius: 100%;
+                                    }
+                                    
+                                    .team-man img {
+                                        width: 100%;
+                                        margin-top: -0px;
+                                        height: 100%;
+                                        min-height: 100%;
+                                        min-width: 100%;
+                                        border-radius: 100%;
+                                    }
+                                    
+                                    .team-man:hover {
+                                        background-color: white;
+                                        color: deepskyblue;
+                                        transition: 0.3s ease;
+                                        -webkit-transition: 0.3s ease;
+                                        -moz-transition: 0.3s ease;
+                                        -ms-transition: 0.3s ease;
+                                        -o-transition: 0.3s ease;
+                                    }
+                                    
+                                    .team-block h3 {
+                                        color: deepskyblue;
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        text-transform: uppercase;
+                                        padding-top: 70px;
+                                        margin-bottom: 5px;
+                                    }
+                                    
+                                    .team-block span {
+                                        color: #6c6c6c;
+                                        font-size: 16px;
+                                        text-transform: uppercase;
+                                        letter-spacing: 0.025em;
+                                    }
+                                    
+                                    .team-block p {
+                                        color: dimgray;
+                                        font-size: 25px;
+                                        text-align: center;
+                                        padding: 25px 15px;
+                                        line-height: 24px;
+                                    }
+                                    
+                                    .team-description {
+                                        background-color: #f5f5f5;
+                                    }
+                                    
+                                    .team-social-network {
+                                        text-align: center;
+                                        padding-bottom: 15px;
+                                    }
+                                    
+                                    .team-social-network a {
+                                        margin: 0 6px;
+                                    }
+                                    
+                                    .team-social-network i {
+                                        height: 40px;
+                                        width: 40px;
+                                        background: white;
+                                        text-align: center;
+                                        color: deepskyblue;
+                                        border-radius: 50%;
+                                        border: 3px solid #c4e5f0;
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    .team-block h3 {
+                                        color: deepskyblue;
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        text-transform: uppercase;
+                                        padding-top: 70px;
+                                        margin-bottom: 5px;
+                                    }
+                                    
+                                    .team-block span {
+                                        color: #6c6c6c;
+                                        font-size: 16px;
+                                        text-transform: uppercase;
+                                        letter-spacing: 0.025em;
+                                    }
+                                    
+                                    .team-block p {
+                                        color: dimgray;
+                                        font-size: 25px;
+                                        text-align: center;
+                                        padding: 25px 15px;
+                                        line-height: 24px;
+                                    }
+                                    
+                                    .team-description {
+                                        background-color: #f5f5f5;
+                                    }
+                                    
+                                    .team-social-network {
+                                        text-align: center;
+                                        padding-bottom: 15px;
+                                    }
+                                    
+                                    .team-social-network a {
+                                        margin: 0 6px;
+                                    }
+                                    
+                                    .team-social-network i {
+                                        height: 40px;
+                                        width: 40px;
+                                        background: white;
+                                        text-align .team-social-network1 i {
+                                            height: 40px;
+                                            width: 40px;
+                                            background: white;
+                                            text-align: center;
+                                            color: deepskyblue;
+                                            border-radius: 50%;
+                                            border: 3px solid #c4e5f0;
+                                            padding-top: 10px;
+                                        }
+                                        .team-block {
+                                            text-align: center;
+                                            position: relative;
+                                        }
+                                        .team-block:hover .team-description {
+                                            background-color: deepskyblue;
+                                            color: white;
+                                            transition: 0.3s ease;
+                                            -webkit-transition: 0.3s ease;
+                                            -moz-transition: 0.3s ease;
+                                            -ms-transition: 0.3s ease;
+                                            -o-transition: 0.3s ease;
+                                        }
+                                        .team-block:hover .team-title h3,
+                                        .team-block:hover .team-title span {
+                                            color: white;
+                                            transition: 0.4s ease;
+                                            -webkit-transition: 0.4s ease;
+                                            -moz-transition: 0.4s ease;
+                                            -ms-transition: 0.4s ease;
+                                            -o-transition: 0.4s ease;
+                                        }
+                                        .team-block:hover .team-description p {
+                                            color: #f9f9f9;
+                                            transition: 0.5s ease;
+                                            -webkit-transition: 0.5s ease;
+                                            -moz-transition: 0.5s ease;
+                                            -ms-transition: 0.5s ease;
+                                            -o-transition: 0.5s ease;
+                                        }
+                                        .team-block:hover .team-social-network {
+                                            border-color: white;
+                                            background: deepskyblue;
+                                            color: white;
+                                            transition: 1.0s ease;
+                                            -webkit-transition: 1.0s ease;
+                                            -moz-transition: 1.0s ease;
+                                            -ms-transition: 1.0s ease;
+                                            -o-transition: 1.0s ease;
+                                        }
